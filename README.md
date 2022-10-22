@@ -1,1 +1,1 @@
-docker build --ssh default="id_rsa location" -t lab2.v1 .
+docker build --ssh default="id_rsa location" -t morganmlg/lab2.v1 .
