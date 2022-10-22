@@ -13,3 +13,5 @@ RUN --mount=type=ssh git clone git@github.com:MorganMLGman/chmura_lab3.git ./
 RUN npm install
 
 CMD ["npm", "start"]
+
+EXPOSE 8080/tcp
